@@ -34,4 +34,4 @@ jobs:
         with:
           context: ${{ github.event.inputs.subdirectory }}
           push: true
-          tags: ghcr.io/${{ github.repository }}/adjutor-base-images/${{ env.SUBDIR_NAME }}:latest
+          tags: ghcr.io/${{ github.repository_owner }}/${{ github.repository }}/${{ env.SUBDIR_NAME }}:latest
